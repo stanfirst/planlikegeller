@@ -1,0 +1,48 @@
+{
+  "name": "plan-like-geller",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.21.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^6.0.7",
+    "@mantine/hooks": "^6.0.7",
+    "@mantine/next": "^6.0.7",
+    "@tensorflow-models/qna": "^1.0.1",
+    "@tensorflow/tfjs": "^4.4.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.4.0",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.35",
+    "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "natural": "^6.2.0",
+    "next": "^13.3.0",
+    "postcss": "8.4.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-speech-kit": "^3.0.1",
+    "react-speech-recognition": "^3.10.0",
+    "regenerator-runtime": "^0.13.11",
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@types/react-speech-recognition": "^3.9.2",
+    "@types/regenerator-runtime": "^0.13.1"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}
