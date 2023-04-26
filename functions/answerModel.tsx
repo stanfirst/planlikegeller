@@ -1,11 +1,11 @@
-import * as tf from "@tensorflow/tfjs";
+// import * as tf from "@tensorflow/tfjs";
 import * as qna from "@tensorflow-models/qna";
 import { Input, Loader, Rating, Textarea } from "@mantine/core";
 import { useEffect, useRef, useState } from "react";
-import "@tensorflow/tfjs-backend-webgl";
+// import "@tensorflow/tfjs-backend-webgl";
 import { Services } from "@/constants/services";
 
-tf.setBackend("webgl");
+// tf.setBackend("webgl");
 
 interface answerType {
   text: string;

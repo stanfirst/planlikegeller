@@ -16,8 +16,6 @@
     "@mantine/hooks": "^6.0.7",
     "@mantine/next": "^6.0.7",
     "@tensorflow-models/qna": "^1.0.1",
-    "@tensorflow/tfjs": "^4.4.0",
-    "@tensorflow/tfjs-backend-webgl": "^4.4.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
